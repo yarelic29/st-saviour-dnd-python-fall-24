@@ -14,7 +14,7 @@ def generate_monster() -> int:
     draw_d6(r)
     if r == 1 or r == 2 or r == 3:
         skeleton = '\U0001F480'
-        print(skeleton + ' skeleton crawls our of the floor')
+        print(skeleton + ' skeleton crawls out of the floor')
         print('roll required 3')
         return 3 
     if r == 4 or r == 5:
